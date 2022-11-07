@@ -1,0 +1,14 @@
+{
+  "name": "@sitewaerts/pdfjs-dist",
+  "version": "2.6.350",
+  "main": [
+    "build/pdf.js",
+    "build/pdf.worker.js"
+  ],
+  "ignore": [],
+  "keywords": [
+    "Mozilla",
+    "pdf",
+    "pdf.js"
+  ]
+}
