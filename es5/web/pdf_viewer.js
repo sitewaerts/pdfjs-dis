@@ -233,8 +233,8 @@ var _pdf_history = __w_pdfjs_require__(15);
 var _pdf_page_view = __w_pdfjs_require__(16);
 var _pdf_single_page_viewer = __w_pdfjs_require__(18);
 var _pdf_viewer = __w_pdfjs_require__(20);
-var pdfjsVersion = '2.6.350';
-var pdfjsBuild = 'efcb7cf7f';
+var pdfjsVersion = '2.6.351';
+var pdfjsBuild = '4000cc162';
 
 /***/ }),
 /* 1 */
