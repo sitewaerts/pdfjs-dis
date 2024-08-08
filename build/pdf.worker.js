@@ -133,8 +133,8 @@ Object.defineProperty(exports, "WorkerMessageHandler", {
   }
 });
 var _worker = __w_pdfjs_require__(1);
-const pdfjsVersion = '2.6.351';
-const pdfjsBuild = '4000cc162';
+const pdfjsVersion = '2.6.352';
+const pdfjsBuild = '500b24b1f';
 
 /***/ }),
 /* 1 */
@@ -209,7 +209,7 @@ class WorkerMessageHandler {
     var WorkerTasks = [];
     const verbosity = (0, _util.getVerbosityLevel)();
     const apiVersion = docParams.apiVersion;
-    const workerVersion = '2.6.351';
+    const workerVersion = '2.6.352';
     if (apiVersion !== workerVersion) {
       throw new Error(`The API version "${apiVersion}" does not match ` + `the Worker version "${workerVersion}".`);
     }
@@ -15957,7 +15957,6 @@ class WidgetAnnotation extends Annotation {
     data.readOnly = this.hasFieldFlag(_util.AnnotationFieldFlag.READONLY);
     if (data.fieldType === "Sig") {
       data.fieldValue = null;
-      this.setFlags(_util.AnnotationFlag.HIDDEN);
     }
   }
   _constructFieldName(dict) {

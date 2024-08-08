@@ -133,8 +133,8 @@ Object.defineProperty(exports, "WorkerMessageHandler", {
   }
 });
 var _worker = __w_pdfjs_require__(1);
-var pdfjsVersion = '2.6.351';
-var pdfjsBuild = '4000cc162';
+var pdfjsVersion = '2.6.352';
+var pdfjsBuild = '500b24b1f';
 
 /***/ }),
 /* 1 */
@@ -243,7 +243,7 @@ var WorkerMessageHandler = /*#__PURE__*/function () {
       var WorkerTasks = [];
       var verbosity = (0, _util.getVerbosityLevel)();
       var apiVersion = docParams.apiVersion;
-      var workerVersion = '2.6.351';
+      var workerVersion = '2.6.352';
       if (apiVersion !== workerVersion) {
         throw new Error("The API version \"".concat(apiVersion, "\" does not match ") + "the Worker version \"".concat(workerVersion, "\"."));
       }
@@ -27552,7 +27552,6 @@ var WidgetAnnotation = /*#__PURE__*/function (_Annotation2) {
     data.readOnly = _this3.hasFieldFlag(_util.AnnotationFieldFlag.READONLY);
     if (data.fieldType === "Sig") {
       data.fieldValue = null;
-      _this3.setFlags(_util.AnnotationFlag.HIDDEN);
     }
     return _this3;
   }
